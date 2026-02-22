@@ -29,20 +29,20 @@ const Contact = () => {
             margin: '0',
             padding: '0'
           }}>
-            <li><NavLink   to="/" href="#" style={{
+            <li><NavLink to="/" href="#" style={{
               textDecoration: 'none',
               color: '#4b5563',
               fontWeight: '500',
               transition: 'color 0.2s'
             }}>Home</NavLink></li>
-            <li><NavLink   to="/about" href="#" style={{
+            <li><NavLink to="/about" href="#" style={{
               textDecoration: 'none',
               color: '#4b5563',
               fontWeight: '500',
               transition: 'color 0.2s'
             }}>About</NavLink></li>
-        
-            <li><NavLink   to="/contact" style={{
+
+            <li><NavLink to="/contact" style={{
               textDecoration: 'none',
               color: '#4b5563',
               fontWeight: '500',
@@ -51,6 +51,11 @@ const Contact = () => {
           </ul>
         </nav>
       </header>
+
+      <p>
+
+        git branch: 'main', url: 'https://github.com/meraoffice001/jen.git'
+      </p>
     </>
   )
 }
